@@ -2,6 +2,7 @@
 name = "mixed_type_proc"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/andrewlowndes/mixed_array/crates/mixed_type_proc"
 keywords = ["mixed_type", "macros"]
 categories = ["development-tools::procedural-macro-helpers"]
 
