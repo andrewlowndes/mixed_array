@@ -11,4 +11,5 @@ categories = ["rust-patterns"]
 [lib]
 
 [dependencies]
-mixed_struct_proc = { path = "crates/mixed_struct_proc" }
+mixed_type_proc = "0.1.0"
+

@@ -1,4 +1,4 @@
-mixed_struct_proc::mixed_struct_proc!();
+mixed_type_proc::mixed_type_proc!();
 
 //create items with the approriate Mixed structs so the generics can be inferred
 #[macro_export]

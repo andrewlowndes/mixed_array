@@ -289,7 +289,7 @@ fn gen_mixed_enum(index: usize) -> TokenStream {
 }
 
 #[proc_macro]
-pub fn mixed_struct_proc(_input: proc_macro::TokenStream) -> proc_macro::TokenStream {
+pub fn mixed_type_proc(_input: proc_macro::TokenStream) -> proc_macro::TokenStream {
     let enums = (2..=12).map(gen_mixed_enum);
 
     quote!(

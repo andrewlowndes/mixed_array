@@ -1,7 +1,9 @@
 [package]
-name = "mixed_struct_proc"
+name = "mixed_type_proc"
 version = "0.1.0"
 edition = "2021"
+keywords = ["mixed_type", "macros"]
+categories = ["development-tools::procedural-macro-helpers"]
 
 [lib]
 proc-macro = true
