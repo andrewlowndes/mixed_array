@@ -2,7 +2,9 @@
 name = "mixed_type_proc"
 version = "0.1.0"
 edition = "2021"
+description = "Procedural macros for creating generic mixed type enums."
 repository = "https://github.com/andrewlowndes/mixed_array/crates/mixed_type_proc"
+license = "MIT OR Apache-2.0"
 keywords = ["mixed_type", "macros"]
 categories = ["development-tools::procedural-macro-helpers"]
 
