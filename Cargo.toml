@@ -1,0 +1,14 @@
+[package]
+name = "mixed_array"
+version = "0.1.0"
+edition = "2021"
+description = "Construct arrays of mixed types."
+repository = "https://github.com/andrewlowndes/mixed_array"
+license = "MIT OR Apache-2.0"
+keywords = ["mixed-types"]
+categories = ["rust-patterns"]
+
+[lib]
+
+[dependencies]
+mixed_struct_proc = { path = "crates/mixed_struct_proc" }
