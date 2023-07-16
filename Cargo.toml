@@ -1,6 +1,6 @@
 [package]
 name = "mixed_array"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Construct arrays of mixed types."
 repository = "https://github.com/andrewlowndes/mixed_array"

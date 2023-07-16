@@ -7,7 +7,7 @@ macro_rules! mixed_array {
         []
     };
     ($a:expr $(,)?) => {
-        [$crate::Mixed1::A(&a)]
+        [&a]
     };
     ($a:expr, $b:expr $(,)?) => {
         [$crate::Mixed2::A($a), $crate::Mixed2::B($b)]
